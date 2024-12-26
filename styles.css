@@ -1,0 +1,159 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1, h2 {
+    font-weight: 700;
+    color: #4a4e69;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navbar Styles */
+.navbar {
+    background: linear-gradient(to right, #4a4e69, #9a8c98, #c9ada7);
+    padding: 15px;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar a {
+    color: white;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(to right, #f8edeb, #f9dcc4);
+    padding: 50px;
+    text-align: center;
+    border-bottom: 5px solid #4a4e69;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #4a4e69;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Buttons */
+button, .btn {
+    background: linear-gradient(to right, #4a4e69, #9a8c98);
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+button:hover, .btn:hover {
+    background: #4a4e69;
+}
+
+/* Form Styles */
+form {
+    background: white;
+    border: 2px solid #9a8c98;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-weight: bold;
+    color: #4a4e69;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #c9ada7;
+    border-radius: 5px;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #4a4e69;
+    outline: none;
+    box-shadow: 0 0 5px #4a4e69;
+}
+
+/* Footer Styles */
+footer {
+    background: #4a4e69;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+/* Job Listings Page */
+.card {
+    background: white;
+    border: 2px solid #9a8c98;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    color: #4a4e69;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #6c757d;
+}
+
+/* Hover Effects */
+.card:hover {
+    border-color: #4a4e69;
+    transform: translateY(-5px);
+    transition: 0.3s ease;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+    }
+}
